@@ -1,0 +1,66 @@
+.collection-section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.collection-heading h1{
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 20px 0px ;
+}
+.mens-collection{
+    background-image: url('../../../public/assets/images/men-collection-banner.jpg');
+    width: 100%;
+    height: 100vh;   
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.women-collection{
+    background-image: url('../../../public/assets/images/women-colection-banner.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.kids-collection{
+    background-image: url('../../../public/assets/images/Kids_Category_Banner.jpg');
+    width: 100%;
+    height: 100vh;   
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.shopnow-button{
+    background: none;
+    border: none;
+    border-style: double;
+    border: 1px solid white;
+    color: white;
+    height: 35px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 500;
+}

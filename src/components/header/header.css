@@ -1,0 +1,64 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px 30px; */
+    background: linear-gradient(90deg, #023a21, black);
+    color: white;
+    z-index: 2000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo p{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: white;
+    padding: 20px 20px
+}
+.logo span{
+    color:#ffb18a;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    color: #ffb18a;
+}
+.nav-item{
+    padding: 0px 10px 0px 10px;
+}
+.nav-item:hover{
+    color:#ec2e45;
+    transition: 0.2s all ease-in-out;
+    cursor: pointer;
+}
+
+.searchBar-icons-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffb18a;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.searchBar input{
+    border: none;
+    padding: 0;
+    background: none;
+    padding-right: 10px;
+}
+.nav-icon-wrapper{
+    display: flex;
+    margin-left:20px;
+    color: #ffb18a;
+}
+

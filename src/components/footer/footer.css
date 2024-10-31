@@ -1,0 +1,27 @@
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h6{
+    font-size: 20px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.footer-section-5{
+    display: grid;
+}
+.icon{
+    font-size: 30px;
+    padding: 10px;
+}
+.icon:hover{
+    transform: translateY(-5px);
+    transition:  0.3s all ease-in-out;
+}
